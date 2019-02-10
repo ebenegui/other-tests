@@ -1,0 +1,16 @@
+1) What is a normalized schema? 
+The main objective of a normalized schema is to prevent data redundancy, by organizing data into tables that contains only related data.
+It also help to enhance data integrity and efficiency of the database.
+
+2) What is the importance of ‘Single Responsibility’ in the SOLID principles? 
+SOLID principles are a guidance for programmers for develop computer software and maintain it, they help to build and extend software in a easier way by following 5 relevant principles
+
+3) How do you paginate a query against a large set of data? 
+Usually by using database paging, the objective is to fragment the result set into a small arbitrary value (10,20,35 rows) so the information will be presented in a more user friendly and efficient way.
+
+4) What are some ways that you can version an API? 
+the most common way is to use the AssemblyInfo file, it's located in the properties folder inside the solution folder, compiling that proyect will give the api the proper version.
+
+5) What is the difference between optimistic and pessimistic concurrency?
+Optimistic concurrency control means transactions fail when they commit with conflicts. 
+Pessimistic concurrency control acquires locks when transactions start so conflicts aren’t possible.
